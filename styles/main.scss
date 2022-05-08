@@ -1,7 +1,14 @@
 @import "./shared/fonts";
 
+// Components
+@import "./components/header";
+
 // Pages
 @import "./index";
+
+.absolute {
+    position: absolute;
+}
 
 html,
 body {
@@ -14,9 +21,9 @@ body {
 
 h1 {
     font-family: "Calibre-Bold", "Helvetica";
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     line-height: 1.2;
     text-transform: uppercase;
     color: #1a1a1a;
