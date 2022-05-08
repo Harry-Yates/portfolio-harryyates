@@ -1,0 +1,52 @@
+@import "./shared/fonts";
+
+html,
+body {
+    font-family: "Hiragino Kaku Gothic", "Helvetica";
+    font-size: 13px;
+    background: #ffffff;
+}
+
+h1 {
+    font-family: "Calibre-Bold", "Helvetica";
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-family: "Calibre-Bold", "Helvetica";
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+li {
+    font-family: "Calibre-Regular", "Helvetica";
+    font-size: 16px;
+    font-size: 1.8em;
+    line-height: 27.2px;
+    list-style: none;
+}
+
+p {
+    font-family: "Hiragino Kaku Gothic", "Helvetica";
+    font-size: 13px;
+}
+
+a {
+    font-family: "Calibre-Bold", "Helvetica";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    cursor: pointer;
+}

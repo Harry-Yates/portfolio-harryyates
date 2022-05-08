@@ -16,7 +16,7 @@ const Portfolio = ({ posts }) => {
 
     return (
         <BaseLayout>
-            <h1>Portfolio page</h1>
+            <h2>Portfolio page</h2>
             <ul>{renderPosts()}</ul>
         </BaseLayout>
     );

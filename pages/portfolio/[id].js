@@ -4,8 +4,8 @@ import axios from "axios";
 const Portfolio = ({ portfolio }) => {
     return (
         <BaseLayout>
-            <h1>Portfolio Page</h1>
-            <h1>{portfolio.title}</h1>
+            <h2>Portfolio Page</h2>
+            <h3>{portfolio.title}</h3>
             <p>BODY: {portfolio.body}</p>
             <p>ID: {portfolio.id}</p>
         </BaseLayout>
