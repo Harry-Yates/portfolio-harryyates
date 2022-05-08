@@ -1,7 +1,12 @@
 @import "./shared/fonts";
 
+// Pages
+@import "./index";
+
 html,
 body {
+    width: 100%;
+    height: 100%;
     font-family: "Hiragino Kaku Gothic", "Helvetica";
     font-size: 13px;
     background: #ffffff;
