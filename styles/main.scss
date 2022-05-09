@@ -21,29 +21,25 @@ body {
 
 h1 {
     font-family: "Calibre-Bold", "Helvetica";
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 700;
-    letter-spacing: 4px;
-    line-height: 1.2;
+    letter-spacing: 5px;
     text-transform: uppercase;
     color: #1a1a1a;
 }
 
 h2 {
     font-family: "Calibre-Bold", "Helvetica";
-    font-size: 2em;
+    font-size: 0.8em;
     font-weight: 700;
     letter-spacing: 0.1em;
-    line-height: 1.2;
     text-transform: uppercase;
     color: #1a1a1a;
 }
 
 li {
     font-family: "Calibre-Regular", "Helvetica";
-    font-size: 16px;
-    font-size: 1.8em;
-    line-height: 27.2px;
+    font-size: 0.1em;
     list-style: none;
 }
 
@@ -54,10 +50,9 @@ p {
 
 a {
     font-family: "Calibre-Bold", "Helvetica";
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    letter-spacing: 0.1em;
-    line-height: 50px;
+    letter-spacing: 0.25em;
     text-transform: uppercase;
     color: #1a1a1a;
     cursor: pointer;
