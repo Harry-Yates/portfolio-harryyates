@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     return (
         <nav className='NavbarItems'>
@@ -40,7 +40,9 @@ const Header = () => {
                 </ul>
             </div>
             <div className='containerCenter'>
-                <h1 className='navbar-logo'>Harry Yates</h1>
+                <Link href='/'>
+                    <h1 className='navbar-logo'>Harry Yates</h1>
+                </Link>
             </div>
             <div className='containerRight'>
                 <li>

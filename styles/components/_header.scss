@@ -18,6 +18,7 @@
 
 .login {
     margin-right: 2rem;
+    margin-bottom: 3px;
 }
 
 //Center
@@ -31,7 +32,7 @@
 .navbar-logo {
     display: flex;
     text-align: center;
-    width: 157px;
+    width: 200px;
     align-self: center;
     cursor: pointer;
 }
@@ -160,7 +161,7 @@
     .menu-icon {
         display: block;
         position: absolute;
-        top: 1rem;
+        top: 0.6rem;
         left: 2rem;
         font-size: 1.8rem;
         cursor: pointer;

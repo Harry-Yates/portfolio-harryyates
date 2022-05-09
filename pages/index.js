@@ -19,10 +19,10 @@ class Index extends React.Component {
                                         <div className='back'>
                                             <div className='hero-section-content'>
                                                 <h2> Frontend Developer </h2>
-                                                <div className='hero-section-content-intro'>
+                                                <p className='hero-section-content-intro'>
                                                     Have a look at my portfolio and job
                                                     history.
-                                                </div>
+                                                </p>
                                             </div>
                                             <Image
                                                 className='image'
