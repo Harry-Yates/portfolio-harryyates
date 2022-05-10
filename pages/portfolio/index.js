@@ -1,18 +1,17 @@
 import BaseLayout from "../../components/layout/BaseLayout";
 import BasePage from "../../components/BasePage";
 import Link from "next/link";
-import { useGetPosts } from "../../actions";
+import { useGetData } from "../../actions";
 
 const Portfolio = () => {
-    const { posts, error, loading } = useGetPosts();
+    const { data, error, loading } = useGetData("/api/v1/posts");
 
-    const renderPosts = () => {
+    const renderPosts = posts => {
         return posts.map(post => (
             <li key={post.id}>
-                <Link href={`/portfolio/${post.id}`}>
+                <Link as={`/portfolio/${post.id}`} href='/portfolio/[id]'>
                     <a>{post.title}</a>
                 </Link>
-                {post.title}
             </li>
         ));
     };
@@ -20,9 +19,9 @@ const Portfolio = () => {
     return (
         <BaseLayout>
             <BasePage>
-                <h2>Portfolio page</h2>
+                <h1>Portfolio Page</h1>
                 {loading && <p>Loading data...</p>}
-                {posts && <ul>{renderPosts(posts)}</ul>}
+                {data && <ul>{renderPosts(data)}</ul>}
                 {error && <div className='alert alert-danger'>{error.message}</div>}
             </BasePage>
         </BaseLayout>
