@@ -2,6 +2,9 @@ import React from "react";
 import BaseLayout from "../components/layout/BaseLayout";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
+import Typed from "react-typed";
+
+const locations = ["Stockholm", "London"];
 
 class Index extends React.Component {
     render() {
@@ -41,11 +44,22 @@ class Index extends React.Component {
                             <Col md='6' className='hero-welcome-wrapper'>
                                 <div className='hero-welcome-text'>
                                     <h2>
-                                        Welcome to the portfolio of Harry Yates. A
-                                        Frontend Developer based between Stockholm and
-                                        London.
+                                        Welcome to my portfolio. I&apos;m a Frontend
+                                        Developer based in{" "}
+                                        <Typed
+                                            loop
+                                            typeSpeed={100}
+                                            backSpeed={200}
+                                            strings={locations}
+                                            backDelay={7000}
+                                            loopCount={0}
+                                            showCursor
+                                            className='self-typed'
+                                            cursorChar='|'
+                                        />
                                     </h2>
                                 </div>
+
                                 <div className='hero-welcome-bio'>
                                     <h3>Selected Work</h3>
                                 </div>

@@ -1,13 +1,16 @@
 import BaseLayout from "../../components/layout/BaseLayout";
+import BasePage from "../components/BasePage";
 import axios from "axios";
 
 const Portfolio = ({ portfolio }) => {
     return (
         <BaseLayout>
-            <h2>Portfolio Page</h2>
-            <h3>{portfolio.title}</h3>
-            <p>BODY: {portfolio.body}</p>
-            <p>ID: {portfolio.id}</p>
+            <BasePage>
+                <h2>Portfolio Page</h2>
+                <h3>{portfolio.title}</h3>
+                <p>BODY: {portfolio.body}</p>
+                <p>ID: {portfolio.id}</p>
+            </BasePage>
         </BaseLayout>
     );
 };

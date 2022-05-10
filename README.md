@@ -21,7 +21,9 @@ xxx
 ### :man_student: Learnings:
 
 -   Next
-    -   [x] Installing Create React App and generating the project.
+    -   [x] Installed Next & React.
+    -   [x] Styled with Reactstrap and Scss.
+    -   [x] Had fun with React Typed to make dynamic text
 
 ### :interrobang: Future Improvements:
 
@@ -31,7 +33,8 @@ xxx
 
 ### :computer: Tech used in this specific repository:
 
--   Next
+-   Next & React
 -   JavaScript
 -   Reactstrap
 -   Scss
+-   React typed

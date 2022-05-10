@@ -3,15 +3,15 @@ import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <nav className='NavbarItems'>
             <div className='containerLeft'>
                 <div className='menu-icon' onClick={() => setIsOpen(!isOpen)}>
-                    <i>{isOpen ? <FaBars /> : <FaTimes />}</i>
+                    <i>{isOpen ? <FaTimes /> : <FaBars />}</i>
                 </div>
-                <ul className={isOpen ? "nav-menu-active" : "nav-menu"}>
+                <ul className={!isOpen ? "nav-menu-active" : "nav-menu"}>
                     <li>
                         <Link href='/'>
                             <a className='nav-links'>Home</a>
