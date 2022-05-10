@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio - Created with Next
 
-## Getting Started
+<!-- https://user-images.githubusercontent.com/82885837/150193942-20eeadf0-a4a5-4281-b231-71746966d1ae.mp4 -->
 
-First, run the development server:
+### :open_file_folder: The Brief:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+-   Create a portfolio
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### :hourglass_flowing_sand: Time spent / Deadline:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1 weeks.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### :dart: Goals:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+xxx
 
-## Learn More
+### :mechanical_arm: Solution:
 
-To learn more about Next.js, take a look at the following resources:
+xxx
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### :man_student: Learnings:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-   Next
+    -   [x] Installing Create React App and generating the project.
 
-## Deploy on Vercel
+### :interrobang: Future Improvements:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   Navbar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    -   xxx
+
+### :computer: Tech used in this specific repository:
+
+-   Next
+-   JavaScript
+-   Reactstrap
+-   Scss
