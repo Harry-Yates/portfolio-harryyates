@@ -26,7 +26,8 @@
 ### :interrobang: Future Improvements:
 
 -   Navbar
-    -   Needs tightening up and smooth animations.
+    -   Needs tightening up with smooth animations.
+    -   Will work on hamburger spans, and add in an animation
 
 ### :computer: Tech used in this project:
 
@@ -35,3 +36,4 @@
 -   Reactstrap
 -   Scss
 -   React typed
+-   SWR

@@ -1,15 +1,11 @@
 import BaseLayout from "../../components/layout/BaseLayout";
 import BasePage from "../../components/BasePage";
-import { useGetData } from "../../actions";
+import { useGetPostById } from "../../actions";
 import { useRouter } from "next/router";
 
 const Portfolio = () => {
     const router = useRouter();
-    const {
-        data: portfolio,
-        error,
-        loading,
-    } = useGetData(router.query.id ? `/api/v1/posts/${router.query.id}` : null);
+    const { data: portfolio, error, loading } = useGetPostById(router.query.id);
 
     return (
         <BaseLayout>
@@ -18,8 +14,8 @@ const Portfolio = () => {
                 {error && <div className='alert alert-danger'>{error.message}</div>}
                 {portfolio && (
                     <>
-                        <h1>I am Portfolio page</h1>
-                        <h1>{portfolio.title}</h1>
+                        <h2>Portfolio page</h2>
+                        <h3>{portfolio.title}</h3>
                         <p>BODY: {portfolio.body}</p>
                         <p>ID: {portfolio.id}</p>
                     </>
