@@ -2,6 +2,18 @@ import { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+const LoginLink = () => (
+    <Link href='/'>
+        <a className='nav-link port-navbar-link clickable login'>Login</a>
+    </Link>
+);
+
+const LogoutLink = () => (
+    <Link href='/'>
+        <a className='nav-link port-navbar-link clickable login'>Logout</a>
+    </Link>
+);
+
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -45,11 +57,8 @@ const Header = () => {
                 </Link>
             </div>
             <div className='containerRight'>
-                <li>
-                    <Link href='/login'>
-                        <a className='login'>Login</a>
-                    </Link>
-                </li>
+                <LoginLink />
+                <LogoutLink />
             </div>
         </nav>
     );

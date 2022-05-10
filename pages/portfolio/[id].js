@@ -1,5 +1,5 @@
 import BaseLayout from "../../components/layout/BaseLayout";
-import BasePage from "../components/BasePage";
+import BasePage from "../../components/BasePage";
 import axios from "axios";
 
 const Portfolio = ({ portfolio }) => {

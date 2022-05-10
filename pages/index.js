@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Typed from "react-typed";
 
-const locations = ["Stockholm", "London"];
+const locations = ["Stockholm", "Stockholm but from London"];
 
 class Index extends React.Component {
     render() {

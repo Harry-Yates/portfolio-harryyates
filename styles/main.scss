@@ -31,6 +31,10 @@ body {
     color: var(--clr-primary);
 }
 
+.base-page {
+    padding-top: 100px;
+}
+
 h1 {
     font-family: "Calibre-Bold", "Helvetica";
     font-size: var(--fs-larger);
@@ -44,7 +48,7 @@ h2 {
     font-family: "Calibre-Bold", "Helvetica";
     font-size: var(--fs-large);
     font-weight: var(--fw-heavy);
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--clr-primary);
 }
