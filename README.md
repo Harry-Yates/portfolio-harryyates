@@ -37,3 +37,4 @@
 -   Scss
 -   React typed
 -   SWR
+-   Auth0

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const LoginLink = () => (
-    <Link href='/'>
+    <Link href='/api/v1/login'>
         <a className='nav-link port-navbar-link clickable login'>Login</a>
     </Link>
 );
