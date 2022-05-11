@@ -14,7 +14,7 @@ const LogoutLink = () => (
     </Link>
 );
 
-const Header = () => {
+const Header = ({ user, loading }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -57,8 +57,12 @@ const Header = () => {
                 </Link>
             </div>
             <div className='containerRight'>
-                <LoginLink />
-                <LogoutLink />
+                {!loading && (
+                    <>
+                        {user && <LogoutLink />}
+                        {!user && <LoginLink />}
+                    </>
+                )}
             </div>
         </nav>
     );
