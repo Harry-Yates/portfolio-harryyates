@@ -49,6 +49,11 @@ const Header = ({ user, loading }) => {
                             <a className='nav-links'>CV</a>
                         </Link>
                     </li>
+                    <li>
+                        <Link href='/easterEgg'>
+                            <a className='nav-links'>😶‍🌫️</a>
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className='containerCenter'>
