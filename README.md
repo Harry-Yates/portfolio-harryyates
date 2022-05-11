@@ -22,6 +22,7 @@
 -   Styling
     -   [x] Styled with Reactstrap and Scss.
 -   Authentication
+    -   [x] Hooked up Auth0 Registration & Login
 
 ### :interrobang: Future Improvements:
 
